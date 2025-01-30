@@ -1,0 +1,9 @@
+/* Make Particle stay in the background */
+.particles-background {
+    position: fixed;  /* Fixed position so it stays in place */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;  /* Ensure it stays behind everything */
+}

@@ -1,0 +1,139 @@
+/* Info Section */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  max-width: none;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo Animation */
+.logo {
+  margin-bottom: 15px;
+  animation: scaleUp 1.2s ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.brishack-logo {
+  width: 240px;
+  height: auto;
+}
+
+/* Slide-Up Animations */
+.heading,
+.university,
+.date,
+.location,
+.theme {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 15px;
+  animation-delay: 0.3s;
+}
+
+.university {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 10px;
+  animation-delay: 0.5s;
+}
+
+.date {
+  animation-delay: 0.7s;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.location {
+  animation-delay: 0.9s;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.theme {
+  animation-delay: 1.1s;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Link Styling */
+.university a {
+  color: #2d3436;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.university a:hover {
+  color: #C02F38;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .info-section {
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .university {
+    font-size: 1.5rem;
+  }
+  
+  .date,
+  .location,
+  .theme {
+    font-size: 1.2rem;
+  }
+}

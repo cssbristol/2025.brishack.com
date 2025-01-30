@@ -1,0 +1,44 @@
+.prize-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 500px;
+}
+
+.prize-table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.prize-table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #6c5ce7;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.prize-table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+.prize-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Remove hover color change */
+.prize-table tr:hover {
+    background: none !important;
+}
