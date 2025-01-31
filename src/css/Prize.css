@@ -1,13 +1,16 @@
+/* Prize Container */
 .prize-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     margin: 20px 0;
-    width: 500px;
+    padding: 20px;
 }
 
+/* Table Styling */
 .prize-table {
-    width: 80%;
+    width: 90%; /* Adjust width dynamically */
     max-width: 600px;
     border-collapse: collapse;
     background: #ffffff;
@@ -16,17 +19,18 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Table Caption */
 .prize-table caption {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px;
     background: #6c5ce7;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+/* Table Cells */
 .prize-table td {
     padding: 12px 20px;
     text-align: left;
@@ -34,11 +38,34 @@
     font-size: 1.1rem;
 }
 
+/* Remove Bottom Border from Last Row */
 .prize-table tr:last-child td {
     border-bottom: none;
 }
 
-/* Remove hover color change */
+/* Responsive Table */
+@media (max-width: 768px) {
+    .prize-container {
+        padding: 10px;
+    }
+
+    .prize-table {
+        width: 100%; /* Full width on smaller screens */
+        font-size: 1rem;
+    }
+
+    .prize-table caption {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
+    .prize-table td {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
+/* Keep Hover Disabled */
 .prize-table tr:hover {
     background: none !important;
 }
