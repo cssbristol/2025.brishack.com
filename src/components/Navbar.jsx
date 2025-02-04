@@ -30,8 +30,9 @@ function Navbar() {
                     <div className="close-btn" onClick={() => setIsMenuOpen(false)}>✖</div>
                     <li className="home" onClick={() => scrollToSection("home")}>Home</li>
                     <li className="about" onClick={() => scrollToSection("about")}>About</li>
+                    <li className="rules" onClick={() => scrollToSection("rules")}>Rules</li>
                     <li className="prize" onClick={() => scrollToSection("prize")}>Prize</li>
-                    <li className="faw" onClick={() => scrollToSection("faq")}>FAQ</li>
+                    <li className="faq" onClick={() => scrollToSection("faq")}>FAQ</li>
                     <li className="schedule" onClick={() => scrollToSection("schedule")}>Schedule</li>
                 </ul>
             </nav>

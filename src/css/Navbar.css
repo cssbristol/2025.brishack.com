@@ -14,10 +14,14 @@
 }
 
 .navbar-logo {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
     cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+    color: #57b56e;
 }
 
 .navbar-menu {
@@ -36,7 +40,7 @@
 }
 
 .navbar-menu li:hover {
-    color: #ffda79;
+    color: #3bb85a;
 }
 
 /* Hamburger Icon */

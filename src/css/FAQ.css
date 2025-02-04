@@ -17,14 +17,12 @@
     text-transform: uppercase;
 }
 
-/* Grid Layout */
 .faq-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-/* Individual FAQ item */
 .faq-item {
     background: #ffffff;
     padding: 15px;
@@ -37,7 +35,6 @@
     flex-direction: column;
 }
 
-/* Question Styling */
 .questions {
     font-size: 1.2rem;
     font-weight: 600;
@@ -45,7 +42,6 @@
     margin-bottom: 10px;
 }
 
-/* Answer Styling */
 .answers {
     font-size: 1.1rem;
     color: #333;

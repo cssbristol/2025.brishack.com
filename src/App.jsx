@@ -7,21 +7,23 @@ import About from "./components/About"
 import Schedule from "./components/Schedule"
 import Prize from "./components/Prize"
 import FAQ from "./components/FAQ"
+import Rules from "./components/Rules"
 import "./App.css"
 
 function App() {
   return (
     <div className="main">
-      {/* <Particle></Particle> */}
+      <Particle></Particle>
       <div className="text-wrapper orbitron">
         <Navbar></Navbar>
         <Info></Info>
         <Counter></Counter>
-        <Societies></Societies>
         <About></About>
+        <Rules></Rules>
         <Prize></Prize>
         <FAQ></FAQ>
         <Schedule></Schedule>
+        <Societies></Societies>
       </div>
     </div>
   );

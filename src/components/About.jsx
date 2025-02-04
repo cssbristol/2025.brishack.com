@@ -11,7 +11,7 @@ function About(){
             -<a className="chatgpt" href="https://chatgpt.com/">ChatGPT</a>
           </p>
           <p className="about-content exo-2">
-            BrisHack is the University of Bristol's annual 24-hour hackathon, organized by the Computer Science Society CSS
+            BrisHack is the University of Bristol's annual 24-hour hackathon, organised by the Computer Science Society CSS
             and the Electrical and Electronic Engineering Society BEEES. 
             It's a fantastic opportunity to dive into new technologies, gain hands-on experience, and connect with industry sponsors—all while having fun!
           </p>
