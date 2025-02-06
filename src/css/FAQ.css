@@ -49,9 +49,8 @@
     text-align: justify;
 }
 
-/* Responsive Styling */
 @media (max-width: 768px) {
     .faq-grid {
-        grid-template-columns: 1fr; /* Stack items in a single column on smaller screens */
+        grid-template-columns: 1fr; 
     }
 }

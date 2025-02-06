@@ -6,20 +6,28 @@ function Prize(){
             <table className="prize-table">
                 <caption className="prize-heading">Categories & Prize</caption>
                 <tr>
-                    <td>Best Software</td>
+                    <td>ILT Solution</td>
                     <td>£ 300</td>
                 </tr>
                 <tr>
-                    <td>Best Hardware</td>
+                    <td>Machine Learning (ML)</td>
+                    <td>£ 300</td>
+                </tr>
+                <tr>
+                    <td>Electronics for Embedded System</td>
+                    <td>£ 300</td>
+                </tr>
+                <tr>
+                    <td>Software Integration</td>
                     <td>£ 300</td>
                 </tr>
                 <tr>
                     <td>Most Creative</td>
-                    <td>£ 300</td>
+                    <td>£ 200</td>
                 </tr>
                 <tr>
-                    <td>Most Creative</td>
-                    <td>£ 300</td>
+                    <td>People's Choice</td>
+                    <td>Round of Applause </td>
                 </tr>
             </table>
         </div>

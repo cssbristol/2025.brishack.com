@@ -1,4 +1,3 @@
-/* Prize Container */
 .prize-container {
     display: flex;
     justify-content: center;
@@ -8,9 +7,8 @@
     padding: 20px;
 }
 
-/* Table Styling */
 .prize-table {
-    width: 90%; /* Adjust width dynamically */
+    width: 90%;
     max-width: 600px;
     border-collapse: collapse;
     background: #ffffff;
@@ -19,7 +17,6 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Caption */
 .prize-table caption {
     font-size: 1.5rem;
     font-weight: bold;
@@ -30,7 +27,6 @@
     border-top-right-radius: 10px;
 }
 
-/* Table Cells */
 .prize-table td {
     padding: 12px 20px;
     text-align: left;
@@ -38,19 +34,17 @@
     font-size: 1.1rem;
 }
 
-/* Remove Bottom Border from Last Row */
 .prize-table tr:last-child td {
     border-bottom: none;
 }
 
-/* Responsive Table */
 @media (max-width: 768px) {
     .prize-container {
         padding: 10px;
     }
 
     .prize-table {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%; 
         font-size: 1rem;
     }
 
@@ -65,7 +59,6 @@
     }
 }
 
-/* Keep Hover Disabled */
 .prize-table tr:hover {
     background: none !important;
 }

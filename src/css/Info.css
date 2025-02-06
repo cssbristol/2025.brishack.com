@@ -1,4 +1,3 @@
-/* Info Section */
 .info-section {
   display: flex;
   flex-direction: column;
@@ -13,7 +12,6 @@
   animation: fadeIn 1s ease-in-out forwards;
 }
 
-/* Fade-in Animation */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -25,7 +23,6 @@
   }
 }
 
-/* Logo Animation */
 .logo {
   margin-bottom: 15px;
   animation: scaleUp 1.2s ease-in-out forwards;
@@ -47,7 +44,6 @@
   height: auto;
 }
 
-/* Slide-Up Animations */
 .heading,
 .university,
 .date,
@@ -106,7 +102,6 @@
   margin-bottom: 8px;
 }
 
-/* Link Styling */
 .university a {
   color: #2d3436;
   text-decoration: none;
@@ -117,7 +112,6 @@
   color: #C02F38;
 }
 
-/* Responsive Styling */
 @media (max-width: 600px) {
   .info-section {
     padding: 20px;

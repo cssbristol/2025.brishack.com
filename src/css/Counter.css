@@ -36,13 +36,11 @@
     width: fit-content;
 }
 
-/* Style when countdown ends */
 .counter-wrapper p:last-child {
     font-size: 1.4rem;
     color: #00b894;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .counter-wrapper {
         padding: 15px 20px;
