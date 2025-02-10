@@ -45,7 +45,6 @@
   opacity: 0.8;
 }
 
-/* Responsive Styling */
 @media (max-width: 600px) {
   .societies-logo {
     flex-direction: column;

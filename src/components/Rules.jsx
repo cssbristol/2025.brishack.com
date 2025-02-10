@@ -26,7 +26,7 @@ function Rules(){
           <li>Projects must not be obscene or offensive.</li>
           <li>
             Participants retain the rights to all IP produced during the
-            hackathon, but give CSS, BEEES, the University and event sponsors
+            hackathon, but give CSS, BEEES and BBS the University and event sponsors
             permission to showcase projects (with appropriate credit) on website,
             blogs, etc. if they wish to do so.
           </li>
