@@ -22,7 +22,7 @@ function Prize(){
                     <td>£ 300</td>
                 </tr>
                 <tr>
-                    <td>Most Impressive Technival Blockchain Project</td>
+                    <td>Most Impressive Technical Blockchain Project</td>
                     <td>£ 300</td>
                 </tr>
                 <tr>
