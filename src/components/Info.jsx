@@ -17,7 +17,7 @@ function Info() {
       </div>
       <div className="date">16th - 17th Feburary</div>
       <div className="location">MVB 2.11</div>
-      <div className="theme">Theme : ?</div>
+      <div className="theme">Theme : "Eco-"</div>
     </div>
   );
 }
