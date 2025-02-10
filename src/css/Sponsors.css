@@ -1,0 +1,105 @@
+/* Sponsors Container */
+.sponsors-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background: #f0f8ea;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sponsors Heading */
+.sponsors-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+/* Sponsors Slider */
+.sponsors-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sponsors Track (Scroll Area) */
+.sponsors-track {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 80%;
+    padding: 10px 0;
+}
+
+/* Hide scrollbar */
+.sponsors-track::-webkit-scrollbar {
+    display: none;
+}
+
+/* Sponsor Logos */
+.sponsor-logo {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.sponsor-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Slider Buttons */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+/* Left Button */
+.slider-btn.left {
+    left: 10px;
+}
+
+/* Right Button */
+.slider-btn.right {
+    right: 10px;
+}
+
+/* Hover Effect for Buttons */
+.slider-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .sponsor-logo {
+        width: 100px;
+    }
+
+    .sponsors-heading {
+        font-size: 1.8rem;
+    }
+
+    .slider-btn {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+}
