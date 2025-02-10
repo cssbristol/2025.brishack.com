@@ -5,8 +5,8 @@ import blockChainLogo from "../assets/blockchain_logo.jpeg"
 
 function Societies() {
   return (
-    <div className="societies-section">
-      <p className="organiser-heading">Collaborator</p>
+    <div className="societies-section" id="collaborators">
+      <p className="organiser-heading">Collaborators</p>
       <div className="societies-logo">
         <a href="https://cssbristol.co.uk/">
           <img className="css-logo" src={cssLogo} alt="CSS Bristol Logo" />

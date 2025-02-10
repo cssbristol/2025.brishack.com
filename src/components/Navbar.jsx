@@ -34,6 +34,7 @@ function Navbar() {
                     <li className="prize" onClick={() => scrollToSection("prize")}>Prize</li>
                     <li className="faq" onClick={() => scrollToSection("faq")}>FAQ</li>
                     <li className="schedule" onClick={() => scrollToSection("schedule")}>Schedule</li>
+                    <li className="collaborators" onClick={() => scrollToSection("collaborators")}>Collaborators</li>
                 </ul>
             </nav>
         </>
