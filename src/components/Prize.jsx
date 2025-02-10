@@ -6,7 +6,7 @@ function Prize(){
             <table className="prize-table">
                 <caption className="prize-heading">Categories & Prize</caption>
                 <tr>
-                    <td>ILT Solution</td>
+                    <td>IoT Solution</td>
                     <td>£ 300</td>
                 </tr>
                 <tr>
@@ -19,6 +19,14 @@ function Prize(){
                 </tr>
                 <tr>
                     <td>Software Integration</td>
+                    <td>£ 300</td>
+                </tr>
+                <tr>
+                    <td>Most Impressive Technival Blockchain Project</td>
+                    <td>£ 300</td>
+                </tr>
+                <tr>
+                    <td>Most Impressive Real World Application</td>
                     <td>£ 300</td>
                 </tr>
                 <tr>
