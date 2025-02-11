@@ -28,15 +28,15 @@ function Policy() {
             This Website and any information or other material contained in it
             are made available to you strictly on the basis that you accept it
             on an 'as is' and 'as available' basis. As such, we make no
-            warranties, representations, or undertakings in relation to:
+            warranties, representations or undertakings in relation to:
             <ul>
               <li>
-                Any of the content of the Website (including, without
-                limitation, any as to the quality, accuracy, completeness, or
-                fitness for any particular purpose).
+                any of the content of the Website (including, without
+                limitation, any as to the quality, accuracy, completeness or
+                fitness for any particular purpose of such content).
               </li>
               <li>
-                Any content of any other third-party website referred to or
+                any content of any other third party website referred to or
                 accessed by hypertext link through the Website.
               </li>
             </ul>
@@ -45,29 +45,79 @@ function Policy() {
             You should ensure that you have appropriate protection against
             viruses and other security arrangements in place whilst using the
             Internet. We make no guarantees that the Website is free from
-            computer viruses.
+            computer viruses. It is strongly recommended that you check for such
+            viruses before downloading the Website or its contents.
           </li>
           <li>
-            Links to third-party websites are for your convenience only. Such
+            Links to third party websites are for your convenience only. Such
             websites are operated and controlled by third parties and their
-            inclusion does not imply any endorsement or approval by Us.
+            inclusion does not imply any endorsement or approval by Us of such
+            websites in any way.
           </li>
           <li>
-            Where you rely on any information or other material contained in
-            this Website, you do so entirely at your own risk.
+            <p>
+              Where you rely on any information or other material contained in
+              this Website, you do so entirely at your own risk and you accept
+              that all warranties, conditions and undertakings, express or
+              implied, whether by common law, statute, trade usage, course of
+              dealings or otherwise in respect of this Website are excluded to
+              the fullest extent permitted by law.
+            </p>
+            <p>
+              We exclude all liability whatever, to the fullest extent permitted
+              by law, in respect of any loss or damage resulting or arising from
+              any non-availability or use of this Website or of any other
+              Website linked to it, or from reliance on the contents of this
+              Website or any material or content accessed through it.
+            </p>
           </li>
           <li>
-            For the avoidance of doubt, we own or are licensed to use all
-            intellectual property rights in and to this Website and all
-            technical infrastructure relating to it.
+            <p>
+              For the avoidance of doubt we own or are licensed to use all
+              intellectual property rights in and to this website and all
+              technical infrastructure relating to it. This Website is protected
+              by Copyright and the Copyright, Trademarks, logos and Intellectual
+              Property rights for the content of this Website are the property
+              of BEEES and CSS. Any use, printing or copying of materials on
+              this Website, other than in the course of browsing, is strictly
+              prohibited. Any framing of this Website is prohibited.
+            </p>
+            <p>
+              You may view or download any part of the Site for private
+              purposes, but you are not permitted, without our express
+              permission, to:
+            </p>
+            <ul>
+              <li>
+                store the Website, or any part of the Website, for any other
+                purpose;
+              </li>
+              <li>
+                print copies of the Website, or any part of the Website, for any
+                other purpose;
+              </li>
+              <li>
+                reproduce, copy or transmit the Website, or any part of the
+                Website, in any way, for any other purpose or in any other
+                medium.
+              </li>
+            </ul>
           </li>
           <li>
             All other rights which are not specifically granted are reserved.
           </li>
           <li>
-            If you supply personal details to us through this Website, you
-            consent to our maintaining, recording, holding, and using such
+            If you supply personal details to us through this Website then you
+            consent to our maintaining, recording, holding and using such
             personal data in accordance with our Privacy Policy.
+          </li>
+          <li>
+            You agree that the Website is available for your personal,
+            non-commercial use only. You agree that no materials of any kind
+            submitted by You, will violate or infringe upon the rights of any
+            third party, including copyright, trademark, privacy, publicity or
+            other personal or proprietary rights; or contain libelous,
+            defamatory or otherwise unlawful material.
           </li>
           <li>
             If you wish to complain about any content appearing on the Website,
@@ -80,7 +130,10 @@ function Policy() {
           </li>
           <li>
             This website has been designed and these terms of use shall be
-            governed by and construed in accordance with English law.
+            governed by and construed in accordance with English law. Any
+            dispute arising out of the accessing or use of this Website shall be
+            subject to the jurisdiction of the English courts sitting in
+            England.
           </li>
         </ol>
       </div>
