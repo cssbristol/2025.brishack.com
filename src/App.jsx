@@ -5,9 +5,10 @@ import Counter from "./components/Counter"
 import Societies from "./components/Societies"
 import About from "./components/About"
 import Schedule from "./components/Schedule"
-import Prize from "./components/Prize"
+import Prizes from "./components/Prizes"
 import FAQ from "./components/FAQ"
 import Rules from "./components/Rules"
+import Policy from "./components/Policy"
 import "./App.css"
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
         <Counter></Counter>
         <About></About>
         <Rules></Rules>
-        <Prize></Prize>
+        <Prizes></Prizes>
         <FAQ></FAQ>
         <Schedule></Schedule>
         <Societies></Societies>
+        <Policy></Policy>
       </div>
     </div>
   );

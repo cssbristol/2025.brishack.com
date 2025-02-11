@@ -36,7 +36,7 @@ function Schedule() {
                 <td>Hackspace closes for the day</td>
               </tr>
               <tr>
-                <td>19:00</td>
+                <td>20:00</td>
                 <td>Dinner</td>
               </tr>
             </tbody>
@@ -56,8 +56,12 @@ function Schedule() {
                 <td>Breakfast</td>
               </tr>
               <tr>
+                <td>09:00 (TBC) </td>
+                <td>Networking Opportunity with Babcock </td>
+              </tr>
+              <tr>
                 <td>12:00-13:00</td>
-                <td>Hacking ends and lunch</td>
+                <td>Hacking ends, lunch and Babcock Presentation</td>
               </tr>
               <tr>
                 <td>13:00-15:00</td>

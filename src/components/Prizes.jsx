@@ -1,10 +1,10 @@
-import '../css/Prize.css'
+import '../css/Prizes.css'
 
-function Prize(){
+function Prizes(){
     return(
         <div className="prize-container" id="prize">
             <table className="prize-table">
-                <caption className="prize-heading">Categories & Prize</caption>
+                <caption className="prize-heading">Categories & Prizes</caption>
                 <tr>
                     <td>IoT Solution</td>
                     <td>£ 300</td>
@@ -42,4 +42,4 @@ function Prize(){
     )
 }
 
-export default Prize
+export default Prizes

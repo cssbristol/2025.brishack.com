@@ -40,6 +40,9 @@ function Rules(){
             Use of the Hackspace is prohibited when under the influence of drugs
             alcohol.
           </li>
+          <li>
+            Use common sense; please don't be the reason we need to add to this list next year.
+          </li>
         </ol>
     </div>
   );
