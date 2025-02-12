@@ -30,6 +30,10 @@ function Prizes(){
                     <td>£ 300</td>
                 </tr>
                 <tr>
+                    <td>Green Design</td>
+                    <td>£ 300</td>
+                </tr>
+                <tr>
                     <td>Most Creative</td>
                     <td>£ 200</td>
                 </tr>
