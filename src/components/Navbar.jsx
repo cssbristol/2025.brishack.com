@@ -1,44 +1,65 @@
 import { useState } from "react";
 import "../css/Navbar.css";
 
+const navOptions = [
+  { label: "Home", id: "home" },
+  { label: "About", id: "about" },
+  { label: "Rules", id: "rules" },
+  { label: "Prize", id: "prize" },
+  { label: "FAQ", id: "faq" },
+  { label: "Schedule", id: "schedule" },
+  { label: "Collaborators", id: "collaborators" },
+  { label: "Sponsors", id: "sponsors" },
+  { label: "Policy", id: "policy" },
+];
+
 function Navbar() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const scrollToSection = (id) => {
-        const section = document.getElementById(id);
-        if (section) {
-            section.scrollIntoView({ behavior: "smooth", block: "center" });
-            setIsMenuOpen(false); // Close menu after clicking an item
-        }
-    };
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: id === "policy" ? "start" : "center",
+      });
+      setIsMenuOpen(false);
+    }
+  };
 
-    return (
-        <>
-            {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
+  return (
+    <>
+      {isMenuOpen && (
+        <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>
+      )}
 
-            <nav className="navbar">
-                <div className="navbar-logo" onClick={() => scrollToSection("home")}>
-                    BrisHack 2025
-                </div>
+      <nav className="navbar">
+        <div className="navbar-logo" onClick={() => scrollToSection("home")}>
+          BrisHack 2025
+        </div>
 
-                <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                    ☰
-                </div>
+        <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          ☰
+        </div>
 
-                <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
+        <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
+          <div className="close-btn" onClick={() => setIsMenuOpen(false)}>
+            ✖
+          </div>
 
-                    <div className="close-btn" onClick={() => setIsMenuOpen(false)}>✖</div>
-                    <li className="home" onClick={() => scrollToSection("home")}>Home</li>
-                    <li className="about" onClick={() => scrollToSection("about")}>About</li>
-                    <li className="rules" onClick={() => scrollToSection("rules")}>Rules</li>
-                    <li className="prize" onClick={() => scrollToSection("prize")}>Prize</li>
-                    <li className="faq" onClick={() => scrollToSection("faq")}>FAQ</li>
-                    <li className="schedule" onClick={() => scrollToSection("schedule")}>Schedule</li>
-                    <li className="collaborators" onClick={() => scrollToSection("collaborators")}>Collaborators</li>
-                </ul>
-            </nav>
-        </>
-    );
+          {navOptions.map((item) => (
+            <li
+              key={item.id}
+              className={item.id}
+              onClick={() => scrollToSection(item.id)}
+            >
+              {item.label}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;

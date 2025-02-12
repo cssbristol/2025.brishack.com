@@ -1,16 +1,17 @@
-/* Sponsors Container */
 .sponsors-container {
-    width: 100%;
-    max-width: 1000px;
-    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 20px;
-    background: #f0f8ea;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1300px; 
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
 }
 
-/* Sponsors Heading */
 .sponsors-heading {
     font-size: 2rem;
     font-weight: bold;
@@ -18,88 +19,70 @@
     color: #2d3436;
 }
 
-/* Sponsors Slider */
-.sponsors-slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
 
-/* Sponsors Track (Scroll Area) */
-.sponsors-track {
+.sponsor-item {
     display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    white-space: nowrap;
-    width: 80%;
-    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Hide scrollbar */
-.sponsors-track::-webkit-scrollbar {
-    display: none;
-}
-
-/* Sponsor Logos */
 .sponsor-logo {
-    width: 150px;
+    width: 200px;
     height: auto;
     object-fit: contain;
-    transition: transform 0.3s ease-in-out;
-}
-
-/* Hover Effect */
-.sponsor-logo:hover {
-    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    filter: grayscale(40%);
     opacity: 0.8;
 }
 
-/* Slider Buttons */
-.slider-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px 15px;
-    font-size: 24px;
-    border-radius: 50%;
-    transition: background 0.3s ease;
+.sponsor-logo:hover {
+    transform: scale(1.15);
+    filter: grayscale(0%);
+    opacity: 1;
 }
 
-/* Left Button */
-.slider-btn.left {
-    left: 10px;
+@media (max-width: 1024px) {
+    .sponsors-container {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
 }
 
-/* Right Button */
-.slider-btn.right {
-    right: 10px;
-}
+@media (max-width: 768px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
 
-/* Hover Effect for Buttons */
-.slider-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-/* Responsive */
-@media (max-width: 600px) {
     .sponsor-logo {
-        width: 100px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
     }
 
-    .sponsors-heading {
-        font-size: 1.8rem;
-    }
-
-    .slider-btn {
-        font-size: 18px;
-        padding: 8px 12px;
+    .sponsor-logo {
+        width: 150px;
     }
 }

@@ -8,6 +8,7 @@ import Schedule from "./components/Schedule"
 import Prizes from "./components/Prizes"
 import FAQ from "./components/FAQ"
 import Rules from "./components/Rules"
+import Sponsors from "./components/Sponsors"
 import Policy from "./components/Policy"
 import "./App.css"
 
@@ -25,6 +26,7 @@ function App() {
         <FAQ></FAQ>
         <Schedule></Schedule>
         <Societies></Societies>
+        <Sponsors></Sponsors>
         <Policy></Policy>
       </div>
     </div>

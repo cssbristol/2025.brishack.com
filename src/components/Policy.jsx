@@ -2,7 +2,7 @@ import "../css/Policy.css";
 
 function Policy() {
   return (
-    <div className="policy-container">
+    <div className="policy-container" id="policy">
       <div className="t-and-c-container">
         <h1 className="t-and-c-heading">Terms & Conditions</h1>
         <ol>
