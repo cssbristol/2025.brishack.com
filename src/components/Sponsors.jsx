@@ -6,12 +6,12 @@ import dyson_logo from "../assets/James-Dyson-Foundation-Logo.jpg";
 const sponsors = [
   {
     name: "Babcock",
-    link: "https://www.babcockinternational.com/",
+    link: "https://earlycareers.babcockinternational.com/",
     image: babcock_logo,
   },
   {
     name: "Imagination Technologies",
-    link: "https://www.imaginationtech.com/",
+    link: "https://www.imaginationtech.com/careers/early-careers/",
     image: imagination_technologies_logo,
   },
   {
