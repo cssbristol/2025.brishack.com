@@ -237,7 +237,7 @@ function Policy() {
         </ul>
         <p>
           To exercise your rights, please contact us at{" "}
-          <a href="mailto:committee@beees.org.uk">committee@beees.org.uk</a>
+          <a href="mailto:committee@beees.org.uk">committee@beees.org.uk</a>{" "}
           or{" "}
           <a href="mailto:cs-society@bristol.ac.uk">cs-society@bristol.ac.uk</a>
           .
