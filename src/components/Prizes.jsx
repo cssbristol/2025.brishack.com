@@ -2,7 +2,7 @@ import '../css/Prizes.css'
 
 function Prizes(){
     return(
-        <div className="prize-container" id="prize">
+        <div className="prize-container" id="prizes">
             <table className="prize-table">
                 <caption className="prize-heading">Categories & Prizes</caption>
                 <tr>

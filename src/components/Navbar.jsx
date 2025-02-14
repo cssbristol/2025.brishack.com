@@ -5,12 +5,11 @@ const navOptions = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
   { label: "Rules", id: "rules" },
-  { label: "Prize", id: "prize" },
+  { label: "Prizes", id: "prizes" },
   { label: "FAQ", id: "faq" },
   { label: "Schedule", id: "schedule" },
   { label: "Collaborators", id: "collaborators" },
   { label: "Sponsors", id: "sponsors" },
-  { label: "Policy", id: "policy" },
 ];
 
 function Navbar() {
@@ -21,7 +20,7 @@ function Navbar() {
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
-        block: id === "policy" ? "start" : "center",
+        block: "center",
       });
       setIsMenuOpen(false);
     }
