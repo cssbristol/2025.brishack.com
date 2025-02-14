@@ -6,40 +6,48 @@ function Prizes(){
             <table className="prize-table">
                 <caption className="prize-heading">Categories & Prizes</caption>
                 <tr>
-                    <td>IoT Solution</td>
-                    <td>£ 300</td>
+                    <td className="category-row">IoT Solution</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Machine Learning (ML)</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Machine Learning (ML)</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Electronics for Embedded System</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Electronics for Embedded System</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Software Integration</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Software Integration</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Most Impressive Technical Blockchain Project</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Most Impressive Technical Blockchain Project</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Most Impressive Real World Blockchain Application</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Most Impressive Real World Blockchain Application</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Green Design</td>
-                    <td>£ 300</td>
+                    <td className="category-row">Green Design</td>
+                    <td className="prize-row">£ 300</td>
                 </tr>
                 <tr>
-                    <td>Most Creative</td>
-                    <td>£ 200</td>
+                    <td className="category-row">Most Creative</td>
+                    <td className="prize-row">£ 200</td>
                 </tr>
                 <tr>
-                    <td>People's Choice</td>
-                    <td>Round of Applause </td>
+                    <td className="category-row">Best UI 1st Place</td>
+                    <td className="prize-row">Special Prize from Roku</td>
+                </tr>
+                <tr>
+                    <td className="category-row">Best UI 2nd Place</td>
+                    <td className="prize-row">Special Prize from Roku</td>
+                </tr>
+                <tr>
+                    <td className="category-row">People's Choice</td>
+                    <td className="prize-row">Round of Applause </td>
                 </tr>
             </table>
         </div>
