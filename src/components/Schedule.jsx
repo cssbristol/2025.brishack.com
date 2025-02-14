@@ -56,7 +56,7 @@ function Schedule() {
                 <td>Breakfast</td>
               </tr>
               <tr>
-                <td>09:00 (TBC) </td>
+                <td>09:00</td>
                 <td>Networking Opportunity with Babcock </td>
               </tr>
               <tr>
