@@ -68,7 +68,7 @@
 
 @media (max-width: 768px) {
     .schedule-grid {
-        grid-template-columns: 1fr; /* Switch to single-column layout */
-        grid-template-rows: auto auto; /* Each table takes full width */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
     }
 }

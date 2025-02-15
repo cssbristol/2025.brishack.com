@@ -2,7 +2,7 @@ import { SitemapStream, streamToPromise } from "sitemap";
 import { createWriteStream } from "fs";
 import { resolve } from "path";
 
-const BASE_URL = "https://brishack.io/"; // Change this to your actual domain
+const BASE_URL = "https://brishack.io/";
 
 const pages = [
   { url: "/", changefreq: "daily", priority: 1.0 },
@@ -13,11 +13,9 @@ const pages = [
 const generateSitemap = async () => {
   const sitemapStream = new SitemapStream({ hostname: BASE_URL });
 
-  // Create a writable stream to save the sitemap file
   const writeStream = createWriteStream(resolve("", "sitemap.xml"));
   sitemapStream.pipe(writeStream);
 
-  // Add pages dynamically
   for (const page of pages) {
     sitemapStream.write(page);
   }
