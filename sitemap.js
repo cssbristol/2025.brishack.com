@@ -13,7 +13,7 @@ const pages = [
 const generateSitemap = async () => {
   const sitemapStream = new SitemapStream({ hostname: BASE_URL });
 
-  const writeStream = createWriteStream(resolve("", "sitemap.xml"));
+  const writeStream = createWriteStream(resolve("public", "sitemap.xml"));
   sitemapStream.pipe(writeStream);
 
   for (const page of pages) {
