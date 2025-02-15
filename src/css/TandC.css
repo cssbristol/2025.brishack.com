@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tandc-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.tandc-container {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
+  margin: 120px auto 50px;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+.tandc-text-wrapper {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+.tandc-heading {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.section-divider {
+  width: 100%;
+  height: 3px;
+  background-color: #3bb85a;
+  margin: 15px 0;
+}
+
+.tandc-container ol {
+  padding-left: 25px; 
+  margin-left: 0;
+}
+
+.tandc-container ol li {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.tandc-container a {
+  color: #1d72b8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tandc-container a:hover {
+  text-decoration: underline;
+}
+
+.tandc-container ul {
+  padding-left: 40px; 
+}
+
+.tandc-container ul li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .tandc-container {
+    width: 90%;
+    padding: 20px;
+  }
+  .tandc-container ol {
+    padding-left: 20px; 
+  }
+}

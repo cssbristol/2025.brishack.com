@@ -1,116 +1,125 @@
-/* 🔹 Navbar - Always visible */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 15px 30px;
-    color: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 30px;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
-/* 🔹 Navbar Logo (Left) */
 .navbar-logo {
-    font-size: 1.75rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-logo:hover {
-    color: #57b56e;
+  color: #57b56e;
 }
 
 .navbar-menu {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 30%;
-    height: 100vh;
-    background: #ffffff;
-    text-align: center;
-    padding-top: 60px;
-    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
-    transform: translateX(100%); 
-    transition: transform 0.4s ease-in-out;
-    z-index: 999;
-    overflow-y: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100vh;
+  background: #ffffff;
+  text-align: center;
+  padding-top: 60px;
+  box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 999;
+  overflow-y: auto;
 }
 
 .navbar-menu.open {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .navbar-menu::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .navbar-menu li {
-    font-size: 1.2rem;
-    cursor: pointer;
-    padding: 15px;
-    transition: color 0.3s ease-in-out;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 15px;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-menu li:hover {
-    color: #57b56e;
+  color: #57b56e;
 }
 
 .hamburger {
-    display: block;
-    font-size: 2rem;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .hamburger:hover {
-    color: #57b56e;
+  color: #57b56e;
 }
 
 .close-btn {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #000000;
-    transition: color 0.3s ease-in-out;
-    display: block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #000000;
+  transition: color 0.3s ease-in-out;
+  display: block;
 }
 
 .close-btn:hover {
-    color: #13912c;
+  color: #13912c;
 }
 
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 3;
-    transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .navbar-menu li {
-    display: block;
+  display: block;
 }
 
 @media (max-width: 768px) {
-    .navbar-logo {
-        font-size: 1.5rem;
-    }
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
 
-    .navbar-menu {
-        width: 70%;
-    }
+  .navbar-menu {
+    width: 70%;
+  }
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import "../css/Navbar.css";
 
 const navOptions = [
@@ -14,20 +15,23 @@ const navOptions = [
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-      setIsMenuOpen(false);
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: id } });
+    } else {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     }
+    setIsMenuOpen(false);
   };
 
   return (
-    <>
+    <div className="navbar-container">
       {isMenuOpen && (
         <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>
       )}
@@ -57,7 +61,7 @@ function Navbar() {
           ))}
         </ul>
       </nav>
-    </>
+    </div>
   );
 }
 
