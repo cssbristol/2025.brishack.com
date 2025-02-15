@@ -1,4 +1,5 @@
 import "../css/Footer.css";
+import cc_logo from "../assets/cc-by-nc_logo.svg"
 
 function Footer() {
   
@@ -16,7 +17,7 @@ function Footer() {
         </div>
 
         <div className="footer-copyright">
-          &copy; 2025 BrisHack. All rights reserved.
+          <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en" target="_blank"><img src={cc_logo} alt="cc-by-nc" /></a>
         </div>
       </div>
     </footer>
