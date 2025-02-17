@@ -66,7 +66,9 @@ const Counter = () => {
             {status === "ended" && (
                 <div className="counter-wrapper">
                 <p className="counter-heading">
-                    Thank you for participating!
+                    Thank you for participating! 
+                    <br />
+                    See Your Next Year!
                 </p>
             </div>
             )}
