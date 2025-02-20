@@ -6,6 +6,8 @@
 
 Welcome to **Brishack** – a project developed for the **University of Bristol 2025 Hackathon**! This repository contains the source code and documentation for [brishack 2025](https://brishack2025.netlify.app/).
 
+This website is created by 2024/2025 CSS webmaster [Gordon Wai Hin Kam](https://www.linkedin.com/in/gordon-kam/).
+
 ## Built With
 
 - [Vite-React](https://vite.dev/)
