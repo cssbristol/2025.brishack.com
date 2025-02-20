@@ -2,12 +2,12 @@ import { SitemapStream, streamToPromise } from "sitemap";
 import { createWriteStream } from "fs";
 import { resolve } from "path";
 
-const BASE_URL = "https://brishack.io/";
+const BASE_URL = "https://brishack.com/";
 
 const pages = [
   { url: "/", changefreq: "daily", priority: 1.0 },
-  { url: "/privacy", changefreq: "weekly", priority: 0.8 },
-  { url: "/terms&conditions", changefreq: "weekly", priority: 0.8 },
+  { url: "/privacy", changefreq: "daily", priority: 1 },
+  { url: "/terms&conditions", changefreq: "daily", priority: 1 },
 ];
 
 const generateSitemap = async () => {
