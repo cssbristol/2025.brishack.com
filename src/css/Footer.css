@@ -3,7 +3,7 @@
 .footer {
   --primary-color: #333;
   --secondary-color: #555;
-  --hover-color: #3bb85a;
+  --hover-color: #6C5CE7;
   --separator-color: #bbb;
 
   color: var(--primary-color);

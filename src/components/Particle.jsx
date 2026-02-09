@@ -33,11 +33,11 @@ export default function Particle() {
             },
             particles: {
               color: { 
-                value: ["#228B22", "#6A994E", "#A7C957", "#38A3A5"], 
+                value: ["#6C5CE7", "#A29BFE", "#D4A5C9", "#4834D4"], 
                 animation: { enable: true, speed: 5, sync: false },
               },
               links: {
-                color: "#4CAF50",
+                color: "#6C5CE7",
                 distance: 120,
                 enable: true,
                 opacity: 0.7,

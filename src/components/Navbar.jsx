@@ -38,7 +38,7 @@ function Navbar() {
 
       <nav className="navbar">
         <div className="navbar-logo" onClick={() => scrollToSection("home")}>
-          BrisHack 2025
+          BrisHack 2026
         </div>
 
         <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>

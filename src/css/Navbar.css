@@ -25,7 +25,7 @@
 }
 
 .navbar-logo:hover {
-  color: #57b56e;
+  color: #6C5CE7;
 }
 
 .navbar-menu {
@@ -70,7 +70,7 @@
 }
 
 .navbar-menu li:hover {
-  color: #57b56e;
+  color: #6C5CE7;
 }
 
 .hamburger {
@@ -81,7 +81,7 @@
 }
 
 .hamburger:hover {
-  color: #57b56e;
+  color: #6C5CE7;
 }
 
 .close-btn {
@@ -96,7 +96,7 @@
 }
 
 .close-btn:hover {
-  color: #13912c;
+  color: #4834D4;
 }
 
 .overlay {

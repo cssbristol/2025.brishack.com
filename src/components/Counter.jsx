@@ -2,8 +2,8 @@ import {useState, useEffect} from "react"
 import "../css/Counter.css"
 const Counter = () => {
 
-    const startDateTime = new Date("February, 16, 2025 11:00:00")
-    const endDateTime = new Date("Febraury, 17, 2025 15:00:00")
+    const startDateTime = new Date("February, 21, 2026 11:00:00")
+    const endDateTime = new Date("February, 22, 2026 15:00:00")
 
     const [status, setStatus] = useState("before")
     const [timeRemaining, setTimeRemaining] = useState(0)
