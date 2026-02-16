@@ -14,9 +14,6 @@ function Societies() {
         <a href="https://www.beees.co.uk/">
           <img className="beees-logo" src={beeesLogo} alt="BEEES Logo" />
         </a>
-        <a href="https://www.instagram.com/bristolblockchain/">
-          <img className="block-chain-logo" src={blockChainLogo} alt="Bristol Blockchain Logo" />
-        </a>
       </div>
     </div>
   );

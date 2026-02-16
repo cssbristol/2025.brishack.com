@@ -16,9 +16,8 @@ function About() {
       </p>
       <p className="about-content exo-2">
         BrisHack is the University of Bristol's annual 24-hour hackathon,
-        organised by the Computer Science Society (CSS), the Bristol Electrical
-        and Electronic Engineering Society (BEEES) and the Bristol Blockchain
-        Society (BBS). It is a fantastic opportunity to dive into new
+        organised by the Computer Science Society (CSS) and the Bristol Electrical
+        and Electronic Engineering Society (BEEES). It is a fantastic opportunity to dive into new
         technologies, gain hands-on experience, and connect with industry
         sponsors — all while having fun!
       </p>
