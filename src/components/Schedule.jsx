@@ -16,28 +16,20 @@ function Schedule() {
             </thead>
             <tbody>
               <tr>
-                <td>11:00-12:00</td>
-                <td>Registration, merch pick-up and introduction talk</td>
+                <td>11:30-12:00</td>
+                <td>Check In</td>
               </tr>
               <tr>
-                <td>12:00-13:30</td>
-                <td>Hacking Start</td>
+                <td>12:00</td>
+                <td>Introduction</td>
               </tr>
               <tr>
-                <td>13:30-14:30</td>
-                <td>Lunch</td>
+                <td>12:30</td>
+                <td>Start Coding</td>
               </tr>
               <tr>
-                <td>14:30-18:00</td>
-                <td>Continue Hacking</td>
-              </tr>
-              <tr>
-                <td>18:00</td>
-                <td>Hackspace closes for the day</td>
-              </tr>
-              <tr>
-                <td>20:00</td>
-                <td>Dinner</td>
+                <td>21:30</td>
+                <td>Move to Queens Cafe</td>
               </tr>
             </tbody>
           </table>
@@ -52,24 +44,24 @@ function Schedule() {
             </thead>
             <tbody>
               <tr>
-                <td>8:30-9:00</td>
+                <td>10:00</td>
+                <td>Move back to MVB</td>
+              </tr>
+              <tr>
+                <td>10:15</td>
                 <td>Breakfast</td>
               </tr>
               <tr>
-                <td>09:00</td>
-                <td>Networking Opportunity with Babcock </td>
+                <td>12:30</td>
+                <td>Coding Ends</td>
               </tr>
               <tr>
-                <td>12:00-13:00</td>
-                <td>Hacking ends, lunch and Babcock Presentation</td>
-              </tr>
-              <tr>
-                <td>13:00-15:00</td>
+                <td>13:30</td>
                 <td>Judging Begins</td>
               </tr>
               <tr>
-                <td>15:00-16:00</td>
-                <td>Judging concludes and winners announced</td>
+                <td>15:30</td>
+                <td>Closing Presentation</td>
               </tr>
             </tbody>
           </table>
